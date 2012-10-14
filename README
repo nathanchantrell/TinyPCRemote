@@ -1,13 +1,12 @@
--------------------------------------------------------------------------------------------------
- TinyPCRemote
- By Nathan Chantrell http://nathan.chantrell.net
- Receives infra red codes and emulates a USB keyboard for remote control
+------------------------------------------------------------------------------------	
+TinyPCRemote
+By Nathan Chantrell http://nathan.chantrell.net
+Receives infra red codes and emulates a USB keyboard for remote control
 
- Licenced under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) licence:
- http://creativecommons.org/licenses/by-sa/3.0/
--------------------------------------------------------------------------------------------------
+Licenced under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) licence: http://creativecommons.org/licenses/by-sa/3.0/
+------------------------------------------------------------------------------------	
 
-See http://nathan.chantrell.net/ for hardware and setup instructions.
+See http://zorg.org/gag for hardware and setup instructions.
 
 
 TinyPCRemote_ATtiny85.ino
