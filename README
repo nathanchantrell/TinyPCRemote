@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------------------------
+ TinyPCRemote
+ By Nathan Chantrell http://nathan.chantrell.net
+ Receives infra red codes and emulates a USB keyboard for remote control
+
+ Licenced under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) licence:
+ http://creativecommons.org/licenses/by-sa/3.0/
+-------------------------------------------------------------------------------------------------
+
+See http://nathan.chantrell.net/ for hardware and setup instructions.
+
+
+TinyPCRemote_ATtiny85.ino
+-------------------------
+Firmware for the ATtiny85
+
+
+TinyPCRemote_CodeReader.ino
+---------------------------
+Code to run on Arduino to get codes from your remote control
+
+
+keyboard_commands.txt 
+---------------------
+A list of the standard keyboard aliases available as default with the vusb-for-arduino library, additional codes can be found in usb.org's HID-usage-tables document at: http://www.usb.org/developers/devclass_docs/Hut1_12v2.pdf (chapter 10 Keyboard/Keypad Page) and can be entered in the UsbKeyboard libraries UsbKeyboard.h file or the raw codes can be used, eg. the code for the "Home" key is 74.
+
